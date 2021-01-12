@@ -9,19 +9,19 @@ function ImageGallery2() {
 <div class="slideshow-container">
 
 <div class="gallery">
-    <img  src="/Screenshot_1441.png"  />
+    <img  src="/my-app/Screenshot_1441.png"  />
 </div>
 
 <div class="gallery">
-    <img   src="/Screenshot_1442.png"  />
+    <img   src="/my-app/Screenshot_1442.png"  />
 </div>
 
 <div class="gallery">
-    <img  src="/Screenshot_1443.png"  />
+    <img  src="/my-app/Screenshot_1443.png"  />
 </div>
 
 <div class="gallery">
-    <img   src="/Screenshot_1444.png"  />
+    <img   src="/my-app/Screenshot_1444.png"  />
 </div>
 
 </div>
