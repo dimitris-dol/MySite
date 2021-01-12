@@ -28,7 +28,7 @@ function Main() {
              </div>
 
              <div class="footer">
-               <img class="footer_img" styles="height:100px;" src="/hdjune.png"  />
+               <img class="footer_img" styles="height:100px;" src="/my-app/hdjune.png"  />
              </div>
 </div>
          );
