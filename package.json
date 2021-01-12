@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dimitris-dol.github.io/my-app",
+  "homepage": "https://dimitris-dol.github.io/my-app/src",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "jquery": "^3.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
