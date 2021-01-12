@@ -10,7 +10,7 @@ class Modal extends Component {
         {this.props.show && (
           <div className="modal">
            <p>{this.props.name}</p>
-            <button onClick={this.props.onHide}>Close Modal</button>
+            <button onClick={this.props.onHide}>Close</button>
           </div>
         )}
       </React.Fragment>
