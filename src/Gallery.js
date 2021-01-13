@@ -14,6 +14,7 @@ import ImageGallery10 from './ImageGalleries/ImageGallery10.js';
 import ImageGallery11 from './ImageGalleries/ImageGallery11.js';
 import ImageGallery12 from './ImageGalleries/ImageGallery12.js';
 import ImageGallery13 from './ImageGalleries/ImageGallery13.js';
+import ImageGallery14 from './ImageGalleries/ImageGallery14.js';
 import Car from './Car.js';
 
 require('./gallery.css');
@@ -33,7 +34,8 @@ state = {
       { id: "Hyundai i-20 N Line", name: <ImageGallery10 /> },
       { id: "Toyota Yaris Chic", name: <ImageGallery11 /> },
       { id: "BMW 116i M Sport", name: <ImageGallery12 /> },
-      { id: "Citroen C1 Shine", name: <ImageGallery13 /> }
+      { id: "Citroen C1 Shine", name: <ImageGallery13 /> }, 
+      { id: "Peugeot 208 GT Line", name: <ImageGallery14 /> }, 
 
     ]
   };
