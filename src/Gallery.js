@@ -17,6 +17,7 @@ import ImageGallery13 from './ImageGalleries/ImageGallery13.js';
 import ImageGallery14 from './ImageGalleries/ImageGallery14.js';
 import ImageGallery15 from './ImageGalleries/ImageGallery15.js';
 import ImageGallery16 from './ImageGalleries/ImageGallery16.js';
+import ImageGallery17 from './ImageGalleries/ImageGallery17.js';
 import Car from './Car.js';
 
 require('./gallery.css');
@@ -39,7 +40,8 @@ state = {
       { id: "Citroen C1 Shine", name: <ImageGallery13 /> }, 
       { id: "Peugeot 208 GT Line", name: <ImageGallery14 /> },
       { id: "Ford Focus ST Line", name: <ImageGallery15 /> }, 
-      { id: "Ford Focus ST-X Line", name: <ImageGallery16 /> }, 
+      { id: "Ford Focus ST-X Line", name: <ImageGallery16 /> },
+      { id: "Ford Focus ST Line", name: <ImageGallery17 /> }, 
 
     ]
   };
