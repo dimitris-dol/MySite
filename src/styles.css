@@ -9,8 +9,14 @@ table {
 }
 
 thead th {
+  background-color: #FFFFFF;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  padding: 1px;
   text-align: center;
   border-bottom: 2px solid black;
+  text-align: center;
 }
 
 thead button {
@@ -24,41 +30,33 @@ thead button {
   background-color: #FFFFFF;
 }
 
-thead button.ascending::after {
-  content: '▾';
-  display: inline-block;
-  margin-left: 1em;
-}
-
-thead button.descending::after {
-  content: '▴';
-  display: inline-block;
-  margin-left: 1em;
-}
 
 tbody td {
+  background-color: #FFFFFF;
   padding: 0.5em;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid black;
+  text-align: center;
 }
 
-tbody tr:hover {
+tbody td:hover {
   background-color: #eee;
 }
 
-.sort-direction {
-  display: inline-block;
-  height: 0;
-  width: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-
-  &.asc {
-  content: '▾';
-  border-bottom: 5px solid black;
-  }
-
-  &.desc {
-  content: '▴';
-  border-top: 5px solid black;
-  }
+thead button:hover {
+  background-color: #eee;
 }
+
+.sort-direction-asc::after{
+   position: absolute;
+   margin-left: -12px;
+   margin-top: 7px;
+   content: '▾';
+ }
+
+.sort-direction-desc::after{
+  position: absolute;
+  margin-left: -12px;
+  margin-top: 7px;
+  content: '▴';
+ }
+

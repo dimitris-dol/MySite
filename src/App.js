@@ -143,17 +143,22 @@ constructor(){
 
 
 setArrow = (column) => {
+    let direction = this.state.sort.direction;
     let className = 'sort-direction';
 
-    if (this.state.sort.column === column) {
-      className += this.state.sort.direction === 'asc' ? ' asc' : ' desc';
-    }
+    if (this.state.sort.column === column && direction === 'asc') {
+
+      className = 'sort-direction-asc'}
+      else if(this.state.sort.column === column && direction === 'desc'){
+      className = 'sort-direction-desc'}
+       else {
+       className = 'sort-direction'
+        }
 
     console.log(className);
 
     return className;
   };
-
 
 
 

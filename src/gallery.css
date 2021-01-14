@@ -1,21 +1,13 @@
-table {
-  width:100%;
-}
-table, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 1 px;
-  text-align: center;
+.buttonone{
+  background-color: #FFFFFF;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: inherit;
 }
 
-td, button {
-font-size: 15px;
-border-radius: none;
-background-color: #FFFFFF;
+.buttonone:hover{
+    background-color: #eee;
 }
-
 
 .thisone {
 float:right;
@@ -23,3 +15,4 @@ margin-top:-35px;
 display:inline;
 width:35%;
 }
+

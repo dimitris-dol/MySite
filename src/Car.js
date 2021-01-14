@@ -27,7 +27,7 @@ class Car extends Component {
            <div key={key} className="small">
              <p>{data.id}</p>
              <div className="thisone">
-             <button onClick={() => this.getModal(data)}>Gallery</button>
+             <button class="buttonone" onClick={() => this.getModal(data)}>Gallery</button>
              </div>
            </div>
          ))}
