@@ -25,7 +25,7 @@ class Car extends Component {
        <div className="container">
          {this.props.data.map((data, key) => (
            <div key={key} className="small">
-             <p>{data.id}</p>
+             <p> <b>{data.id1} </b>  {data.id}</p>
              <div className="thisone">
              <button class="buttonone" onClick={() => this.getModal(data)}>Gallery</button>
              </div>

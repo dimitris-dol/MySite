@@ -24,22 +24,22 @@ require('./gallery.css');
 class Gallery extends React.Component {
 state = {
     post: [
-      { id: "Mercedes A160 AMG Line", name: <ImageGallery1 /> },
-      { id: "Volkswagen Polo R-Line", name: <ImageGallery2 /> },
-      { id: "Ford Fiesta ST", name: <ImageGallery3 /> },
-      { id: "Audi A1 S-Line", name: <ImageGallery4 /> },
-      { id: "Opel Corsa GS-Line", name: <ImageGallery5 />  },
-      { id: "Hyundai i-30 N", name: <ImageGallery6 /> },
-      { id: "Abarth 595 Competizione", name: <ImageGallery7 />  },
-      { id: "Volkswagen Golf Style", name: <ImageGallery8 /> },
-      { id: "Hyundai i-30 N Line", name: <ImageGallery9 />  },
-      { id: "Hyundai i-20 N Line", name: <ImageGallery10 /> },
-      { id: "Toyota Yaris Chic", name: <ImageGallery11 /> },
-      { id: "BMW 116i M Sport", name: <ImageGallery12 /> },
-      { id: "Citroen C1 Shine", name: <ImageGallery13 /> }, 
-      { id: "Peugeot 208 GT Line", name: <ImageGallery14 /> },
-      { id: "Ford Focus ST Line", name: <ImageGallery15 /> }, 
-      { id: "Ford Focus ST-X Line", name: <ImageGallery16 /> },
+      { id1: "1", id: "Mercedes A160 AMG Line", name: <ImageGallery1 /> },
+      { id1: "2", id: "Volkswagen Polo R-Line", name: <ImageGallery2 /> },
+      { id1: "3", id: "Ford Fiesta ST", name: <ImageGallery3 /> },
+      { id1: "4", id: "Audi A1 S-Line", name: <ImageGallery4 /> },
+      { id1: "5", id: "Opel Corsa GS-Line", name: <ImageGallery5 />  },
+      { id1: "6", id: "Hyundai i-30 N", name: <ImageGallery6 /> },
+      { id1: "7", id: "Abarth 595 Competizione", name: <ImageGallery7 />  },
+      { id1: "8", id: "Volkswagen Golf Style", name: <ImageGallery8 /> },
+      { id1: "9", id: "Hyundai i-30 N Line", name: <ImageGallery9 />  },
+      { id1: "10", id: "Hyundai i-20 N Line", name: <ImageGallery10 /> },
+      { id1: "11", id: "Toyota Yaris Chic", name: <ImageGallery11 /> },
+      { id1: "12", id: "BMW 116i M Sport", name: <ImageGallery12 /> },
+      { id1: "13", id: "Citroen C1 Shine", name: <ImageGallery13 /> }, 
+      { id1: "14", id: "Peugeot 208 GT Line", name: <ImageGallery14 /> },
+      { id1: "15,17", id: "Ford Focus ST Line", name: <ImageGallery15 /> }, 
+      { id1: "16,18", id: "Ford Focus ST-X Line", name: <ImageGallery16 /> },
     ]
   };
 
