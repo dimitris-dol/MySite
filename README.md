@@ -4,4 +4,4 @@ CarComparison website with ReactJS.
 This is the deployment for the CarComparison Repository.
 
 # URL
-It can be found at https://dimitris-dol.github.io/my-app/
+It can be found at https://dimitrisdol.github.io/my-app/
